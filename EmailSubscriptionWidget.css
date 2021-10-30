@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background: #333;
+    width: 100vw;
+    height: 100vh;
+}
+
+#subscribebox {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background:#314d5b; 
+    padding:20px;
+    width:300px;
+    color: #444;
+    font-family: 'PT Sans', arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.widget_follow_subscribe .widget-detail 
+{
+  padding: 36px 30px 40px 30px;
+}
+
+#subscribebox p {
+color: white;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 700;
+}
+
+div.subscribe {
+ margin-top: -7px;
+}
+
+div.subscribe input {
+ display: block;
+ width: 100%;
+}
+
+.subscribe-email {
+ height: 45px;
+ border: none;
+ margin: 0 0 10px;
+ font-size: 0.928571em;
+ background-color: #ffffff;
+  text-align: center;
+  color:efefef;
+}
+
+.subscribe-email:focus {
+ outline: 0;
+}
+
+/* ===== Placeholder color ===== */
+div.subscribe .placeholder { /* Internet Explorer 9 */
+ color: #cacaca;
+}
+
+div.subscribe input:-ms-input-placeholder { /* Internet Explorer 10+ */
+ color: #cacaca;
+}
+
+div.subscribe input::-webkit-input-placeholder { /* WebKit browsers */
+    color: #cacaca;
+}
+
+div.subscribe input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #fafafa;
+}
+
+div.subscribe input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #fafafa;
+}
+
+.subscribe-button {
+    height: 45px;
+    font-weight: 700;
+    font-size:16px;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    background-color:#ea5217;
+    
+    -webkit-transition: background-color 0.2s ease-in-out;
+    -moz-transition: background-color 0.2s ease-in-out;
+    -ms-transition: background-color 0.2s ease-in-out;
+    -o-transition: background-color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.subscribe-button:hover {
+    background-color: #f4b458;
+    cursor: pointer;
+}
+
+.subscribe-button:focus {
+    outline: 0;
+}
+
